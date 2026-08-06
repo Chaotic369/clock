@@ -19,17 +19,16 @@
   *{ box-sizing: border-box; }
 
   html, body{
-    margin:0;
-    padding:0;
-    height:100%;
-    background:
-      radial-gradient(ellipse at 50% 20%, #101c2e 0%, var(--ink) 55%, var(--ink-deep) 100%);
-    font-family: 'JetBrains Mono', 'Courier New', monospace;
-    color: var(--ivory);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-  }
+      margin:0;
+      padding:0;
+      height:100%;
+      background: red;
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
+      color: var(--ivory);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
 
   @font-face{
     font-family: 'DisplaySerif';
@@ -245,7 +244,7 @@
     face.appendChild(tick);
   }
 
-  const numerals = ['XII','I','II','III','IV','V','VI','VII','VIII','IX','X','XI'];
+  const numerals = ['12','1','2','3','4','5','6','7','8','9','10','11'];
   const radius = 38; // percent from center
   numerals.forEach((num, i) => {
     const angle = i * 30 - 90; // start at top
